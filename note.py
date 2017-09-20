@@ -1,11 +1,11 @@
-Data structure 
-1) Linklist vs arraylist
-Good:  dynamic data structure, can store item of different size, grow organically
-Bad: waste memory for referrence/pointer; must be read from the beginning unlike indexing of array; difficult for reverse
+# Data structure 
+# 1) Linklist vs arraylist
+# Good:  dynamic data structure, can store item of different size, grow organically
+# Bad: waste memory for referrence/pointer; must be read from the beginning unlike indexing of array; difficult for reverse
 
-Operation:
-insert()   ： at the beginning O(1),  at the end O(n)
-find(), remove(), add(), get_size()
+# Operation:
+# insert()   ： at the beginning O(1),  at the end O(n)
+# find(), remove(), add(), get_size()
 
 class Node(object):
 
