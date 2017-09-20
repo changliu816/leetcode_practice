@@ -2,9 +2,12 @@ class Solution(object):
     def twoSum(self, nums, target):
         if len(nums) <= 1:
             return False
-        buff_dict = {}
-        for i in range(len(nums)):
-            if nums[i] in buff_dict:
-                return [buff_dict[nums[i]], i]
+        d = {}
+        for i,n in enumerate(nums):
+            if n in d:
+                return [d[n],i]
             else:
-                buff_dict[target - nums[i]] = i
+                d[target - n] = i
+
+# enumerate 
+# d={}  d.has_key
