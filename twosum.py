@@ -11,3 +11,4 @@ class Solution(object):
 
 # enumerate 
 # d={}  d.has_key
+# Goal is to find the index, so use dictionary type, store the number as key, and index as value
